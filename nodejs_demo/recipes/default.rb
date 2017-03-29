@@ -20,7 +20,7 @@ application app_path do
   end
 
   link "#{app_path}/server.js" do
-    to "#{app_path}/bin/www.js"
+    to "#{app_path}/bin/www"
   end
 
   npm_install
